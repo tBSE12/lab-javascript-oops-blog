@@ -1,3 +1,10 @@
+cardStyle.css
+Today
+6:49 PM
+
+Saatvik Singh uploaded an item
+Style Sheet
+cardStyle.css
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
 
 * {
@@ -68,34 +75,25 @@ nav ul a {
 
 .article-card {
 	width: 320px;
-	margin: 30rem 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.article-card h1 {
-	margin-top: 20px;
-	font-weight: 600;
-	font-size: 25px;
-	line-height: 27px;
-}
+	margin-left: 50px;
+	margin-bottom: 30px;
+	display: inline-block;
+	flex-flow: wrap;
+	justify-content: "justify";
+} 
 
 .article-card p {
 	font-weight: 400;
 	font-size: 17px;
 	line-height: 22px;
-	margin: 15px 0;
+	margin: 10px 0;
 }
 
-#image{
-	margin-top: 30px;
-}
-.body-div2 {
-	display: flex;
-	flex-direction: row ;
-	/* justify-content: space-between; */
-	float: left;
+.article-card b {
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 22px;
+	margin: 10px 0;
 }
 
 #popup {
@@ -138,7 +136,6 @@ div#popupContact {
 #card {
 	position: absolute;
 	display: flex;
-	justify-content: flex-center;
 	align-items: center;
 	/* width: 920px; height : 572px; */
 	padding: 108px 0px 0px 18px;
@@ -151,15 +148,16 @@ div#popupContact {
 
 h2 {
 	position: absolute;
-	width: 102px;
+	bottom:-55px;
+	width:200px;
 	height: 33px;
 	margin: 41px 0px 0px 42px;
-	font-family: Nunito;
+	font-family: 'Trebuchet MS';
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 35px;
 	line-height: 33px;
-	z-index: 9; display : flex;
+	z-index: 9;
 	align-items: center;
 	color: #000000;
 	display: flex;
@@ -171,11 +169,11 @@ input[type="text"] {
 	width: 884px;
 	height: 49px;
 	color: #828282;
-	font-size: 18px;
+	font-size: 25px;
 	line-height: 25px;
-	font-family: Nunito;
+	font-family: 'Trebuchet MS';
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 textarea {
@@ -183,7 +181,7 @@ textarea {
 	padding: 12px 0px 0px 20px;
 	width: 884px;
 	height: 232px;
-	font-family: Nunito;
+	font-family: 'Trebuchet MS';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -193,7 +191,7 @@ textarea {
 }
 
 ::placeholder {
-	font-family: Nunito;
+	font-family: 'Trebuchet MS';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -202,7 +200,7 @@ textarea {
 }
 
 #post{
-font-family: Nunito;
+font-family: 'Trebuchet MS';
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -216,3 +214,12 @@ background: #6C63FF;
 border-radius: 4px;
 color: #FFFFFF;
 }
+
+/* .card-text{
+	display: flex;
+	flex-flow: wrap row;
+} */
+
+/* #jsphoto{
+	display: none;
+} */
