@@ -1,10 +1,3 @@
-script.js
-Today
-6:49 PM
-
-Saatvik Singh uploaded an item
-Javascript
-script.js
 class Blog{
     constructor(title, detail){
         this.title = title
